@@ -1,0 +1,102 @@
+[
+    {
+      
+      "title": "Yamaha XSR125",
+      "img": "https://i.postimg.cc/FRFyy4BD/yamaha-XSR125.jpg",
+      "category_id": "01",
+      
+      "brand":"Yahaha",
+      "used_time":"1 month",
+      "buying_price": "160000 ৳",
+      "sell_price" : "120000 ৳"
+    },
+    {
+      
+      "title": "Suzuki Gixxer",
+      "img": "https://i.postimg.cc/sgc4HmZn/suzuki-gixxer.jpg",
+      "category_id": "02",
+     
+      "brand":"Suzuki",
+      "used_time":"1 month",
+      "buying_price": "260000 ৳",
+      "sell_price" : "250000 ৳"
+    },
+    {
+      
+      "title": "suzuki burgman",
+      "img": "https://i.postimg.cc/HkBb9LfR/suzuki-burgman.jpg",
+      "category_id": "02",
+     
+      "brand":"Suzuki",
+      "used_time":"4 month",
+      "buying_price": "200000 ৳",
+      "sell_price" : "150000 ৳"
+    },
+    {
+      
+      "title": "Honda H Ness CB350 BS6",
+      "img":  "https://i.postimg.cc/28gs8zcp/Honda-H-ness-CB-350-BS6.jpg",
+      "category_id": "03",
+      
+      "brand":"Hp",
+      "used_time":"4 month",
+      "buying_price": "120000 ৳",
+      "sell_price" : "90000 ৳"
+    },
+    {
+      
+      "title": "Honda CB350RS",
+      "img": "https://i.postimg.cc/rwN2hBJv/honda-CB350rs.jpg",
+      "category_id": "03",
+      
+      "brand":"Honda",
+      "used_time":"3 month",
+      "buying_price": "150000 ৳",
+      "sell_price" : "130000 ৳"
+    },
+    {
+      
+      "title": "Suzuki GSX",
+      "img": "https://i.postimg.cc/hjrnfHJL/Suzuki-GSX-85.jpg",
+      "category_id": "02",
+      
+      "used_time":"1 month",
+      "buying_price": "160000 ৳",
+      "sell_price" : "150000 ৳"
+    },
+    {
+      
+      "title": "Yamaha une R7",
+      
+      "img": "https://i.postimg.cc/6qk4mJMs/yamaha-une-R7.jpg",
+      "category_id": "01",
+     
+      "brand":"Yamaha",
+      "used_time":"1 month",
+      "buying_price": "100000 ৳",
+      "sell_price" : "70000 ৳"
+    },
+    {
+      
+      "title": "Yamaha AEROX",
+      "img": "https://i.postimg.cc/596KHhFf/yamaha-AEROX.jpg",
+      "category_id": "01",
+     
+      "brand":"Yamaha",
+      "used_time":"1 month",
+      "buying_price": "260000 ৳",
+      "sell_price" : "240000 ৳"
+    },
+    {
+      
+      "title": "Honda GSX-R1000",
+      "img": "https://i.postimg.cc/MKhG2J1H/GSX-R1000.jpg",
+      "category_id": "03",
+     
+      "brand":"Honda",
+      "used_time":"2 month",
+      "buying_price": "180000 ৳",
+      "sell_price" : "150000 ৳"
+    }
+   
+  ]
