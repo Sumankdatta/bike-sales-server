@@ -15,7 +15,28 @@ const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 async function run() {
- 
+  try {
+    const categoriesCollection = client.db('bikeSales').collection('categories')
+    const productCollection = client.db('bikeSales').collection('salesCollection')
+
+    app.get('/categories',async(req,res)=>{
+
+      const query={}
+      const category=await categoriesCollection.find(query).toArray();
+      res.send(category)
+    })
+
+    app.get('/category/:id',async(req,res)=>{
+      const id=req.params.id;
+      const query={category_id:id}
+      const result=await productCollection.find(query).toArray();
+      res.send(result)
+     
+    })
+  }
+  finally {
+
+  }
 }
 run().catch(console.log)
 
