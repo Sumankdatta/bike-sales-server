@@ -19,7 +19,7 @@ async function run() {
     const categoriesCollection = client.db('bikeSales').collection('categories')
     const productCollection = client.db('bikeSales').collection('salesCollection')
     const bookingsCollection = client.db('bikeSales').collection('bookings')
-    const userCollection = client.db('bikeSales').collection('users')
+    const usersCollection = client.db('bikeSales').collection('users')
 
     app.get('/categories', async (req, res) => {
 
@@ -51,6 +51,21 @@ async function run() {
       const result = await bookingsCollection.insertOne(booking);
       res.send(result)
     })
+
+
+    app.get('/jwt', async (req, res) => {
+
+      const email = req.query.email;
+      const query = { email: email }
+      const user = await usersCollection.findOne(query);
+
+      if (user) {
+          const token = jwt.sign({ email }, process.env.ACCESS_TOKEN, { expiresIn: '1h' })
+          return res.send({ accessToken: token })
+      }
+      res.status(403).send({ accessToken: '' })
+
+  })
 
     app.post('/users', async (req, res) => {
       const user = req.body;
