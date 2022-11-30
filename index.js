@@ -18,6 +18,7 @@ async function run() {
   try {
     const categoriesCollection = client.db('bikeSales').collection('categories')
     const productCollection = client.db('bikeSales').collection('salesCollection')
+    const bookingsCollection = client.db('bikeSales').collection('bookings')
 
     app.get('/categories',async(req,res)=>{
 
@@ -33,6 +34,22 @@ async function run() {
       res.send(result)
      
     })
+
+    app.get('/bookings', async (req, res) => {
+      const email = req.query.email;
+      console.log(email)
+      const query = { email: email }
+      const booking = await bookingsCollection.find(query).toArray();
+      res.send(booking)
+  })
+
+    app.post('/bookings', async (req, res) => {
+      const booking = req.body;
+      console.log(booking)
+
+      const result = await bookingsCollection.insertOne(booking);
+            res.send(result)
+        })
   }
   finally {
 

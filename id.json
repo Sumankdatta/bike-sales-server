@@ -1,15 +1,18 @@
 [
     {
       "category_id": "01",
-      "name": "Yamaha"
+      "name": "Yamaha",
+      "img":"https://i.postimg.cc/tJRCBxmV/ylogo.png"
     },
     {
       "category_id": "02",
-      "name": "Suzuki"
+      "name": "Suzuki",
+      "img":"https://i.postimg.cc/B6jGbByp/slogo.png"
     },
     {
       "category_id": "03",
-      "name": "Honda"
+      "name": "Honda",
+      "img":"https://i.postimg.cc/2ynMLcxQ/hlogo.png"
     }
    
   ]

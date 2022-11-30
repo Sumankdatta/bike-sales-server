@@ -8,7 +8,9 @@
       "brand":"Yahaha",
       "used_time":"1 month",
       "buying_price": "160000 ৳",
-      "sell_price" : "120000 ৳"
+      "sell_price" : "120000 ৳",
+      "location":"Barishal",
+      "seller_name":"Suman Datta"
     },
     {
       
@@ -19,7 +21,9 @@
       "brand":"Suzuki",
       "used_time":"1 month",
       "buying_price": "260000 ৳",
-      "sell_price" : "250000 ৳"
+      "sell_price" : "250000 ৳",
+      "location":"Madaripur",
+      "seller_name":"Sajib Kumar"
     },
     {
       
@@ -30,7 +34,9 @@
       "brand":"Suzuki",
       "used_time":"4 month",
       "buying_price": "200000 ৳",
-      "sell_price" : "150000 ৳"
+      "sell_price" : "150000 ৳",
+      "location":"Nowakhali",
+      "seller_name":"Pintu Banik"
     },
     {
       
@@ -38,10 +44,12 @@
       "img":  "https://i.postimg.cc/28gs8zcp/Honda-H-ness-CB-350-BS6.jpg",
       "category_id": "03",
       
-      "brand":"Hp",
+      "brand":"Honda",
       "used_time":"4 month",
       "buying_price": "120000 ৳",
-      "sell_price" : "90000 ৳"
+      "sell_price" : "90000 ৳",
+      "location":"Bagherhat",
+      "seller_name":"Uttam Saha"
     },
     {
       
@@ -52,7 +60,9 @@
       "brand":"Honda",
       "used_time":"3 month",
       "buying_price": "150000 ৳",
-      "sell_price" : "130000 ৳"
+      "sell_price" : "130000 ৳",
+      "location":"Dinajpur",
+      "seller_name":"Tapan Adhikari"
     },
     {
       
@@ -62,7 +72,9 @@
       
       "used_time":"1 month",
       "buying_price": "160000 ৳",
-      "sell_price" : "150000 ৳"
+      "sell_price" : "150000 ৳",
+      "location":"Narayangang",
+      "seller_name":"Emon Hossine"
     },
     {
       
@@ -74,7 +86,9 @@
       "brand":"Yamaha",
       "used_time":"1 month",
       "buying_price": "100000 ৳",
-      "sell_price" : "70000 ৳"
+      "sell_price" : "70000 ৳",
+      "location":"Khulna",
+      "seller_name":"Khakon Dhar"
     },
     {
       
@@ -85,7 +99,9 @@
       "brand":"Yamaha",
       "used_time":"1 month",
       "buying_price": "260000 ৳",
-      "sell_price" : "240000 ৳"
+      "sell_price" : "240000 ৳",
+      "location":"Rajshahi",
+      "seller_name":"Ibrahim Raju"
     },
     {
       
@@ -96,7 +112,9 @@
       "brand":"Honda",
       "used_time":"2 month",
       "buying_price": "180000 ৳",
-      "sell_price" : "150000 ৳"
+      "sell_price" : "150000 ৳",
+      "location":"Dhaka",
+      "seller_name":"Riaz Khan"
     }
    
   ]
