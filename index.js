@@ -19,6 +19,7 @@ async function run() {
     const categoriesCollection = client.db('bikeSales').collection('categories')
     const productCollection = client.db('bikeSales').collection('salesCollection')
     const bookingsCollection = client.db('bikeSales').collection('bookings')
+    const userCollection = client.db('bikeSales').collection('users')
 
     app.get('/categories',async(req,res)=>{
 
